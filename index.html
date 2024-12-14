@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up page</title>
+    <style>
+        body{
+            margin:0;
+            padding:0;
+            background-color:#caee69;
+            height:100vh;
+        }
+
+        .container{
+            display:flex;
+           justify-content: center;
+            margin:130px;
+            padding:20px;
+        }
+        h1{
+            font-size: 30px;
+
+        }
+
+        .card{
+            width:380px;
+            height:230px;
+            background-color: #e1eee7dc;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;  
+            border-radius: 10px;
+        }
+        form{
+            text-align: center;
+        }
+        form input{
+            margin-bottom: 10px;
+            margin-left: 20px;
+            border-radius: 3px;
+            text-decoration: none;
+            padding-left: 5px;;
+        }
+
+        form input{
+            height:30px;
+            width:150px;
+            border-radius: 5px;;
+        }
+        button{
+            border-radius: 5px;
+            margin-top: 8px;
+            margin-left: 10px;
+            width:100px;
+            height:29px;
+            font-size: 17px;
+            position: relative;
+          
+        }
+
+        button:hover{
+            background-color: aquamarine;
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+<body>
+   <div class="container">
+   
+    <div class="card">
+        <h1 style="text-align: center;">Sign Up page</h1>
+        <form>
+            <input  class="field" type="text" name="firstname" id="firstname" placeholder="firstname">   
+           <input class="field" type="text" name="lastname" placeholder="lastname">
+           <input  class="field" type="email" name="email"  placeholder="enter your email">
+           <input  class="field" type="password" name="password" placeholder="enter your password">
+           <button vlaue="submit">Submit</button>
+        </form>
+       </div>
+   </div>
+</body>
+</html>
