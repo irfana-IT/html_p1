@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html_table</title>
+</head>
+<style>
+    table, th, td {
+      border:1px solid black;
+      border-collapse: collapse;
+      background-color: aquamarine;
+    }
+    </style>
+<body>
+    <h1>Html tables</h1>
+    <h2>We use table data td,table row as tr,table_heading as th  and table tag to represent table</h2>
+
+    <h1>Html tables can have borders.We ablly border property on table,td,th</h1>
+
+    <h1>If you want a single border then we use border-collapse propert and gives value as collapse</h1>
+    
+    <li>Table properties </li>
+    <ol>
+        
+        <li>border: you can as how much thick or thin the outline border should be,type of style,and the color for the border</li>
+        <li>boder-collapse:if you want the excel format as the table then u can use the border-collapse property as collapse</li>
+        <li>border-radius can be aplly on table tag or th or td</li>
+        <li>border-style:dashed/dotted/circle.disc</li>
+        <li>border-color:</li>
+        <li>background-color:giving a single collour to the collapse table</li>
+    </ol>
+    <h1>Html table can have different sizes for each col and row </h1>
+    <h2>the size of the row or col will shrink or expand with respect to its body size</h2>
+
+    <h1>Example to increse the particular column with respect to the table width</h1>
+    <table style="width:100%">
+        <tr>
+          <th style="width:70%">Firstname</th>
+          <th>Lastname</th> 
+          <th>Age</th>
+        </tr>
+        <tr>
+          <td>Jill</td>
+          <td>Smith</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Jackson</td>
+          <td>94</td>
+        </tr>
+        <tr>
+          <td>John</td>
+          <td>Doe</td>
+          <td>80</td>
+        </tr>
+      </table>
+    <h1>example to increse the  row-height of the particular row of an </h1>
+
+    <table style="width:100%">
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th> 
+          <th>Age</th>
+        </tr>
+        <tr style="height:200px">
+          <td>Jill</td>
+          <td>Smith</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Jackson</td>
+          <td>94</td>
+        </tr>
+        <tr>
+          <td>John</td>
+          <td>Doe</td>
+          <td>80</td>
+        </tr>
+      </table>
+
+      <h1>Table Header</h1>
+      <ul>
+        <li>table header can be align t<b>Horizontral</b> or <b>Verticle</b> or <b>Single table heasding for n columns</b></li>
+        <li>We can also give caption that is title to our table header "caption"</li>
+        <br/>
+        <table style="width:100%">
+            <caption>Monthly savings</caption>
+            <tr>
+              <th>Month</th>
+              <th>Savings</th>
+            </tr>
+            <tr>
+              <td>January</td>
+              <td>$100</td>
+            </tr>
+            <tr>
+              <td>February</td>
+              <td>$50</td>
+            </tr>
+          </table>
+      </ul>
+</body>
+</html>
